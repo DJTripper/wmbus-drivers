@@ -137,7 +137,8 @@ private:
       return 0;
     }
 
-    uint32_t key = 0xdfd109e8;
+    uint32_t key = 0xb71f0ae8;
+//    uint32_t key = 0xdfd109e8;
     key ^= uintFromBytes(encoded + 2);
     key ^= uintFromBytes(encoded + 6);
     key ^= uintFromBytes(encoded + 10);
